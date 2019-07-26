@@ -5,9 +5,6 @@ def square_array(array)
     new_arr << num ** 2 
   end 
   new_arr
+   binding.pry
 end
 
-def square_array(array)
-  array.collect {|num| num ** 2}
-  binding.pry
-end
